@@ -2233,7 +2233,7 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		border-radius: 3px;
+		border-radius: 10px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px #fff;
 		color: #fff;
@@ -2242,6 +2242,7 @@
 		font-size: 0.8em;
 		font-weight: 600;
 		height: 3.125em;
+/*        width: 3.125em;*/
 		letter-spacing: 0.225em;
 		line-height: 3.125em;
 		padding: 0 2.75em;
@@ -3265,10 +3266,12 @@
 	}
 
 		#header h1 {
+/*
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
 			-ms-transition: opacity 0.2s ease;
 			transition: opacity 0.2s ease;
+*/
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
