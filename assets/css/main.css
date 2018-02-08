@@ -3394,7 +3394,6 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
-        z-index: 2;
 	}
 
 		#banner h2 {
@@ -3813,12 +3812,3 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-
-#myVideo {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    z-index: -1;
-}
